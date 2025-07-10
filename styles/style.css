@@ -243,3 +243,32 @@
 .date{
   color: #B3B3B3;
 }
+
+/* webflow conf2022 styles */
+.banner-webflow{
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin: 110px auto;
+  padding: 70px 150px;
+}
+.banner-title{
+  font-size: 50px;
+  font-weight: bold;
+}
+.banner-description{
+  color: #00000080;
+}
+.get-started-btn{
+  background-color: #4E47FF;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 10px;
+}
+.wcbig{
+   max-width:840px;
+    height:364px;
+    border-radius: 48px;
+}
