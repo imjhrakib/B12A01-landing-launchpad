@@ -12,27 +12,30 @@
   font-weight: 400;
   font-style: normal;
 }
+
 /* Header */
-.header{
+.header {
   background-image: url('../Assets/Hero-bg.png');
   max-width: 1440px;
   height: 700px;
 }
 
-.nav{
+.nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 150px;
   margin-bottom: 100px;
 }
-.nav-logo{
+
+.nav-logo {
   font-size: 34px;
   font-weight: bold;
   color: #4E47FF;
   margin-left: 150px;
 }
-.nav-btn{
+
+.nav-btn {
   font-size: 16px;
   font-weight: bold;
   background-color: #4E47FF;
@@ -42,7 +45,8 @@
   padding: 10px 20px;
   margin-right: 150px;
 }
-.header-section{
+
+.header-section {
   display: flex;
   flex-direction: column;
   gap: 37px;
@@ -50,7 +54,8 @@
   align-items: center;
   margin-top: 0px;
 }
-.header-section-title{
+
+.header-section-title {
   font-size: 65px;
   font-weight: bold;
   max-width: 905px;
@@ -58,7 +63,8 @@
   align-items: center;
   color: #252432;
 }
-.header-section-btn{
+
+.header-section-btn {
   background-color: #4E47FF;
   color: white;
   border: none;
@@ -70,22 +76,26 @@
   font-weight: bold;
 
 }
+
 /* action styles */
-.action{
+.action {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 116px 155px;
 }
-.action-left-side{
+
+.action-left-side {
   width: 517px;
 }
-.action-title{
+
+.action-title {
   font-size: 42px;
   font-weight: bold;
   color: #252432;
   margin-bottom: 10px;
 }
+
 .action-description {
   margin-bottom: 10px;
   font-size: 24px;
@@ -93,6 +103,7 @@
   color: #25243280;
   padding-right: 60px;
 }
+
 .action-btn {
   background-color: #4E47FF;
   width: 229px;
@@ -104,8 +115,57 @@
   font-weight: bold;
   color: white;
 }
-.action-img{
+
+.action-img {
   width: 403px;
   height: 328px;
   border-radius: 48px;
+}
+
+/* user-section styles */
+.user-section {
+  background-color: #4E47FF1A;
+  max-width: 1140px;
+  height: 306px;
+  border-radius: 24px;
+  margin: 116px 155px;
+  display: flex;
+  align-items: center;
+}
+
+.user-quantity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin: 50px auto;
+}
+
+.user-quantity-title {
+  font-size: 38px;
+  padding: 1px 60px;
+  font-weight: bold;
+  color: #252432;
+}
+
+.visitors {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 170px;
+}
+
+.type {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.quantity{
+  color: #4E47FF;
+  font-size: 80px;
+  font-weight: bold;
+}
+.user-type{
+  color: #00000080;
 }
